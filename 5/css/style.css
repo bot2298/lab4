@@ -1,0 +1,197 @@
+* {
+	 margin: 0; 
+	 padding: 0;
+}
+body{
+	background: #719EBB;
+	
+}
+.full{
+	width: 900px;
+	margin: 0 auto;
+	box-shadow: 0 0 5px 1px;
+	background: #fff;
+}
+header{
+	height: 120px;
+	background-image: url(../png/masthead.png) ;
+
+}
+#logo{
+	width: 67px;
+	height: 67px;
+	display: block;
+	position: relative;
+	left: 10px;
+	top: 15px;
+}
+.masthead {
+    height: 126px;
+    position: relative;
+    width: 650px;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 12px;
+    float: left;
+    
+}
+#accerd{
+	width: 85px;
+	height: 82px;
+	position: relative;
+	left: 45px;
+	top: 10px;
+}
+.logo{
+	float: left;
+}
+.accerd{
+	float: left;
+}
+.masthead h1{
+	font: normal 24px/27px MyriadProSemibold,sans-serif;
+	font-weight: 600;
+}
+.masthead a{
+	color: #1a2853;
+	text-decoration: none;
+	
+}
+.masthead h1 span {
+    text-transform: uppercase;
+}
+.masthead h2{
+	font: normal 12px/19px MyriadProSemibold,sans-serif;
+	color: #7e8285;
+	margin: 0px;
+	padding: 0px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 600;
+}
+.content{
+	font: 12px/20px Verdana,sans-serif;
+}
+.content h1 {
+    font: bold normal 18px/26px Verdana,sans-serif;
+    font-size: 18px;
+    color: #1a2853;
+    padding: 0px;
+    padding-top: 0px;
+	  margin: 10px 10px;
+}
+.highlight {
+    background-color: #DFE6EC;
+    padding: 10px 30px;
+    margin: 0 15px;
+}
+.content ul{
+	font: 12px/20px Verdana,Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	max-width: 490px;
+}
+.form {
+    float: right;
+    width: 300px !important;
+    height: auto;
+    margin: 20px 30px 30px 30px;
+    -webkit-box-shadow: 0px 4px 20px 5px #C1BBBB;
+    box-shadow: 0px 4px 20px 5px #C1BBBB;
+    border: 5px solid #DFE6EC;
+    background-color: #fff;
+	  margin: -273px 23px 0 0;
+	 box-shadow: 0 0 5px 1px #fff;
+}
+.form .call {
+    background-color: #CD1920;
+    margin: 0 -5px;
+    color: #fff;
+    padding: 10px 0;
+    border-top: 1px solid #fff;
+	  font: 12px/20px Verdana,Arial,Helvetica,sans-serif;
+}
+.form .call p, .form .call h4 {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.form .call p {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 6px;
+	
+}
+.form .call h4 {
+    font-size: 24px;
+    margin-bottom: 6px;
+	  line-height: 26px; 
+}
+.brochure p span{
+	color: red;
+}
+.form img {
+    margin: -5px 0 0 -5px;
+}
+.margin {
+    margin: 15px 35px;
+}
+.content li{
+	margin-left: 10px;
+}
+.margin li{
+	margin-left: 20px;
+}
+@media only screen and (min-width: 800px){
+	.mobile{
+		display: none;
+		
+	}
+	img {
+		margin: 0 auto;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 800px){
+	.desktop{
+		display: none;
+	}
+}
+.quotes p {
+    float: left;
+    width: 48%;
+    font-size: 12px;
+    line-height: 24px;
+    padding-right: 2%;
+}
+.quotes{
+	overflow: hidden;
+}
+p.sitemap {
+    font: 11px/18px Verdana,Arial,Helvetica,sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 6px 0px 30px;
+}
+p.copyright {
+    font: 11px/18px Verdana,Arial,Helvetica,sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+    padding-top: 15px;
+}
+footer{
+	color: #fff;
+}
+p.copyright a {
+    color: #fff;
+    text-decoration: none;
+}
+p.sitemap a {
+    color: #fff;
+    text-decoration: none;
+}
+.companies {
+	padding-top: 20px; 
+    overflow: hidden;
+    clear: right;
